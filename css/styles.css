@@ -1,0 +1,57 @@
+body {
+  background: #242329;
+  font-family: 'Roboto', sans-serif;
+}
+
+.uk-navbar-nav>li>a {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+  padding: 0 30px;
+}
+
+#title h1 {
+  font-weight: bold;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 10px rgba(150, 150, 150, .25);
+}
+
+#title h4 {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
+}
+
+.fact-section.uk-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.fact-section h3, .fact-section h4 {
+  color: rgba(255, 255, 255, .7);
+}
+
+.fact-section h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.fact-section h3 {
+  opacity: .8;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+
+.redded {
+  color: #BC3636;
+}
+
+.fact-card p {
+  color: rgba(255,255,255,.7)!important;
+}
